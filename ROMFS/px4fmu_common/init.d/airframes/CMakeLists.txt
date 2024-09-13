@@ -99,7 +99,11 @@ if(CONFIG_MODULES_MC_RATE_CONTROL)
 
 		16001_helicopter
 
+		# [16008, 16999] HexaOcta x
+		16008_hexaocta
+
 		24001_dodeca_cox
+
 	)
 endif()
 
