@@ -7,15 +7,11 @@
 #
 # @maintainer x Hoppz <hoppz520@163.com>
 #
-# @board pixhawk-v6x
+# @board px4_fmu-v2 exclude
+# @board bitcraze_crazyflie exclude
 #
 
 . ${R}etc/init.d/rc.mc_defaults
-
-# param set-default NAV_ACC_RAD 2
-
-# param set-default RTL_DESCEND_ALT 10
-# param set-default RTL_RETURN_ALT 30
 
 param set-default CA_ROTOR_COUNT 16
 # Bottom motors
@@ -70,7 +66,7 @@ param set-default CA_ROTOR8_PZ 0.04
 # Rotor 10
 param set-default CA_ROTOR9_PX -0.46
 param set-default CA_ROTOR9_PY -0.19
-param set-default CA_ROTOR9_PZ  0.04
+param set-default CA_ROTOR9_PZ 0.04
 
 # Rotor 11
 # param set-default CA_ROTOR0_KM -0.05
